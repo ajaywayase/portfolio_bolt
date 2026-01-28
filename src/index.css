@@ -10,6 +10,19 @@
   body {
     @apply antialiased;
   }
+
+  /* Hide bolt.new branding */
+  a[href*="bolt.new"],
+  a[href*="stackblitz.com"],
+  [class*="bolt-badge"],
+  [class*="stackblitz-badge"],
+  [data-bolt-badge],
+  iframe[src*="bolt.new"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
 }
 
 @layer utilities {
