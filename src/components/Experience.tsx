@@ -25,8 +25,8 @@ export default function Experience() {
   const experiences = [
     {
       title: 'Software Engineer',
-      company: 'Yogaya Inc.',
-      location: 'Bellevue, WA',
+      company: 'Eyes On Pages Inc.',
+      location: 'Seattle, WA',
       period: 'September 2024 - Present',
       highlights: [
         'Fine-tuned T5-Base transformer on 60,000+ text pairs, leveraging NotebookLM and OpenAI APIs',
@@ -60,6 +60,19 @@ export default function Experience() {
         'Led team of 5 developers for Rakuten Link application using React.js and React Native',
         'Developed TypeScript SDK leveraging WebRTC, cutting integration efforts by 40%',
         'Automated 50+ Unit Tests with Jasmine and Karma, increasing coverage by 42%',
+      ],
+    },
+    {
+      title: 'Software Developer Intern',
+      company: 'Magna Infotech',
+      location: 'Bangalore, India',
+      period: 'June 2019 - August 2020',
+      highlights: [
+        'Developed and updated React + TypeScript components using Tailwind CSS, improving dashboard responsiveness by 10%',
+        'Debugged and refactored Go/Node.js services and FastAPI endpoints, reducing slow database query times by 8-12%',
+        'Built and tested AWS Lambda functions integrated with DynamoDB Streams and SQS',
+        'Improved workflow traceability by 20% through Step Functions enhancements',
+        'Managed feature branches and improved REST/GraphQL SDK documentation for team onboarding',
       ],
     },
   ];
