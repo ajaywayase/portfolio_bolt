@@ -55,14 +55,13 @@ export default function About() {
 
           <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 mb-12 border border-slate-700/50">
             <p className="text-lg text-gray-300 leading-relaxed mb-6">
-              I'm a passionate Software Engineer with a Master's degree in Computer Science from UC Riverside.
-              Currently working at Eyes On Pages Inc. in Seattle, I specialize in building high-performance applications that combine
-              cutting-edge ML/AI technologies with robust backend systems. Based in San Jose, CA.
+              I am a software engineer who consistently builds reliable, scalable systems that perform well under real production constraints. I have delivered backend platforms with high uptime, low latency, and strong security, combining cloud infrastructure, clean API design, and data driven performance tuning. My experience spans large scale consumer systems as well as early stage products, which allows me to move fast without sacrificing engineering rigor.
+            </p>
+            <p className="text-lg text-gray-300 leading-relaxed mb-6">
+              I bring strong fundamentals in distributed systems, data modeling, and algorithms, backed by hands on work in Java, Python, and modern cloud environments. I take ownership of problems end to end, from designing pipelines to optimizing databases and reducing infrastructure costs through thoughtful architecture decisions.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              With experience at companies like Rakuten and a track record of optimizing systems to handle millions
-              of requests, I thrive on solving complex technical challenges. From fine-tuning transformer models to
-              architecting distributed systems, I'm committed to delivering solutions that make a real impact.
+              I work comfortably across frontend, backend, and DevOps, and collaborate closely with cross functional teams. Above all, I focus on learning quickly, applying feedback, and turning complex problems into simple, maintainable solutions.
             </p>
           </div>
 

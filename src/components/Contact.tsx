@@ -38,7 +38,7 @@ export default function Contact() {
     {
       icon: <MapPin size={24} />,
       label: 'Location',
-      value: 'Bellevue, WA',
+      value: 'San Jose, CA',
       link: null,
     },
   ];
