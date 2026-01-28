@@ -56,8 +56,8 @@ export default function About() {
           <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 mb-12 border border-slate-700/50">
             <p className="text-lg text-gray-300 leading-relaxed mb-6">
               I'm a passionate Software Engineer with a Master's degree in Computer Science from UC Riverside.
-              Currently working at Yogaya Inc., I specialize in building high-performance applications that combine
-              cutting-edge ML/AI technologies with robust backend systems.
+              Currently working at Eyes On Pages Inc. in Seattle, I specialize in building high-performance applications that combine
+              cutting-edge ML/AI technologies with robust backend systems. Based in San Jose, CA.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
               With experience at companies like Rakuten and a track record of optimizing systems to handle millions
