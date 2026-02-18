@@ -25,17 +25,16 @@ export default function Experience() {
   const experiences = [
     {
       title: 'Software Engineer',
-      company: 'Eyes On Pages Inc.',
-      location: 'Seattle, WA',
+      company: 'Walgreens',
+      location: 'San Francisco, CA',
       period: 'September 2024 - Present',
       highlights: [
-        'Delivered secure, production-grade backend on AWS using EC2, Nginx, HTTPS, and MySQL with token authentication, supporting 99% uptime',
-        'Architected real-time audio-to-assessment backend pipeline using Whisper, page alignment, and MCQ generation with 5-10s end-to-end latency',
-        'Fine-tuned T5-Base sequence-to-sequence transformer on custom dataset of 60,000+ text pairs via NotebookLM and OpenAI APIs, boosting accuracy with prompt engineering',
-        'Built portal with React, Next.js, and Python Flask capturing 30+ infrastructure parameters, scaling to 3000 client requests per month',
-        'Designed secure RESTful APIs with JWT authentication, role-based access control, and SQLAlchemy validation, sustaining 500req/s with P95 latency under 200ms',
-        'Provisioned on-premise Proxmox cluster with 4 Dockerized VMs (proxy, app, DB, staging), cutting hosting cost by 65%',
-        'Optimized 250GB MongoDB dataset with index tuning and aggregation rewrites, reducing query time from 5s to 1.2s and halving CPU usage',
+        'Engineered and maintained scalable backend microservices using Java and Spring Boot, and Python (Flask) supporting 1M+ daily transactions across retail and pharmacy workflows with consistent low-latency performance',
+        'Designed and deployed cloud-native applications on AWS (EC2, RDS, S3, CloudWatch), achieving 99.9% uptime through auto-scaling, monitoring, and high-availability configurations',
+        'Implemented responsive React.js components integrating REST APIs to streamline pharmacy workflows, reducing page load latency by 20% through lazy loading, code splitting, and refined API request handling',
+        'Built and automated CI/CD pipelines using Jenkins / GitHub Actions, reducing deployment time by 45% and cutting manual release errors by 30%',
+        'Containerized services using Docker and orchestrated deployments via Kubernetes/EKS, improving deployment consistency and environment stability across development, QA, and production environments',
+        'Optimized API performance and database interactions using JPA/Hibernate and SQL, ensuring secure, reliable integrations across internal Walgreens systems and external partners',
       ],
     },
     {
@@ -47,7 +46,7 @@ export default function Experience() {
         'Designed 3 REST APIs with Python, Flask, and PostgreSQL for data collection and analysis',
         'Implemented 6 reusable components with React.js, Next.js, and React Hooks for state management',
         'Deployed website on Google App Engine, scaling to handle 40% traffic increase',
-        'Automated end-to-end CI/CD pipelines using GitHub Actions, reducing deployment time by 50%',
+        'Engineered end-to-end CI/CD pipelines utilizing GitHub Actions and automated testing leading to a 40% reduction in deployment times and increased release velocity',
       ],
     },
     {
@@ -72,11 +71,10 @@ export default function Experience() {
       location: 'Bangalore, India',
       period: 'June 2019 - August 2020',
       highlights: [
-        'Developed and updated React + TypeScript components using Tailwind CSS, improving dashboard responsiveness by 10% and reducing layout shift issues by 15%',
-        'Debugged and refactored targeted sections of Go/Node.js services and FastAPI endpoints, reducing slow database query times by 8-12% across workflows',
-        'Built and tested AWS Lambda functions integrated with DynamoDB Streams and SQS, validating 100-200 events/day in lower environments',
-        'Improved workflow traceability by 20% through Step Functions enhancements',
-        'Supported developer operations by managing feature branches, improving REST/GraphQL SDK documentation, and configuring GitHub Actions lint/test jobs',
+        'Enhanced and updated React + TypeScript components using Tailwind CSS, improving dashboard responsiveness by 10% and reducing layout shift issues by 15% during UI updates',
+        'Debugged and refactored targeted sections of Go, Node.js services and FastAPI endpoints, helping reduce slow database query times by 8-12% across commonly used internal workflows',
+        'Built AWS Lambda functions integrated with DynamoDB Streams and SQS, validating 100-200 events/day in lower environments and improving workflow traceability by 20% through Step Functions enhancements',
+        'Contributed to REST and GraphQL API documentation, configured GitHub Actions CI workflows, and Engineered FastAPI, Python based microservices to support scalable backend integrations',
       ],
     },
   ];

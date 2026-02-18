@@ -31,7 +31,7 @@ export default function About() {
     {
       icon: <Rocket size={32} />,
       title: 'Performance Driven',
-      description: 'Optimized systems handling 500+ req/s with 200ms P95 latency',
+      description: 'High availability systems supporting 1M+ daily transactions at 99.9% uptime',
     },
     {
       icon: <Trophy size={32} />,
@@ -55,13 +55,13 @@ export default function About() {
 
           <div className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 mb-12 border border-slate-700/50">
             <p className="text-lg text-gray-300 leading-relaxed mb-6">
-              I am a software engineer who consistently builds reliable, scalable systems that perform well under real production constraints. I have delivered backend platforms with high uptime, low latency, and strong security, combining cloud infrastructure, clean API design, and data driven performance tuning. My experience spans large scale consumer systems as well as early stage products, which allows me to move fast without sacrificing engineering rigor.
+              Software Engineer with 4+ years of experience building scalable backend microservices and modern React.js front end solutions across retail and cloud platforms. Delivered high availability systems at Walgreens supporting 1M+ daily transactions and led development of Rakuten Drive Transfer, enabling large file sharing with sub 2 second API latency.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed mb-6">
-              I bring strong fundamentals in distributed systems, data modeling, and algorithms, backed by hands on work in Java, Python, and modern cloud environments. I take ownership of problems end to end, from designing pipelines to optimizing databases and reducing infrastructure costs through thoughtful architecture decisions.
+              Proficient in Java, Spring Boot, Python including Flask, AWS, Kubernetes, and CI/CD automation, driving improvements in deployment speed, system reliability, and user experience.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              I work comfortably across frontend, backend, and DevOps, and collaborate closely with cross functional teams. Above all, I focus on learning quickly, applying feedback, and turning complex problems into simple, maintainable solutions.
+              I work comfortably across frontend, backend, and DevOps, collaborating closely with cross-functional teams. I focus on learning quickly, applying feedback, and turning complex problems into simple, maintainable solutions.
             </p>
           </div>
 

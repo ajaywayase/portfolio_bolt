@@ -26,22 +26,22 @@ export default function Skills() {
     {
       title: 'Languages',
       icon: <Code size={32} />,
-      skills: ['Java', 'Python', 'JavaScript', 'TypeScript', 'C++', 'HTML', 'CSS', 'SQL'],
+      skills: ['Java', 'Python', 'JavaScript', 'TypeScript', 'C++', 'MySQL', 'MongoDB', 'HTML', 'CSS', 'SQL'],
     },
     {
       title: 'Frameworks & Libraries',
       icon: <Database size={32} />,
-      skills: ['React.js', 'React Native', 'Angular', 'Node.js', 'Next.js', 'GraphQL', 'Django', 'Flask', 'FastAPI', 'Spring Boot'],
+      skills: ['React.js', 'React Native', 'Angular', 'Node.js', 'Next.js', 'GraphQL', 'Django', 'Flask', 'FastAPI'],
     },
     {
-      title: 'Databases & Cloud',
+      title: 'Developer Tools',
       icon: <Cloud size={32} />,
-      skills: ['MySQL', 'MongoDB', 'PostgreSQL', 'AWS', 'Google Cloud Platform', 'Docker', 'Kubernetes'],
+      skills: ['Docker', 'Git', 'JIRA', 'GitHub', 'AWS', 'GCP', 'Kubernetes'],
     },
     {
-      title: 'Tools & Other',
+      title: 'Other',
       icon: <Wrench size={32} />,
-      skills: ['Git', 'Jenkins', 'JIRA', 'Google Analytics', 'Agile/SDLC', 'WebRTC', 'Redux'],
+      skills: ['Google Analytics', 'Unit Testing', 'Data Structures', 'Jenkins', 'SDLC', 'Agile'],
     },
   ];
 

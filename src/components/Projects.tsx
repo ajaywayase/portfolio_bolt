@@ -29,9 +29,8 @@ export default function Projects() {
       award: '3rd Prize at Hackathon (USA & China region)',
       description: 'AI-powered career guidance platform leveraging LLaMA LLM model for personalized recommendations',
       highlights: [
-        'Lowered processing time by 40% using FastAPI asynchronous capabilities',
-        'Accelerated feature implementation by 20% utilizing React.js reusable components',
-        'Integrated advanced NLP techniques for career path analysis',
+        'Lowered processing time by 40% using FastAPI asynchronous capabilities to run the LLaMA LLM model',
+        'Accelerated feature implementation time by 20% by utilizing React.js with reusable components',
       ],
       tech: ['React.js', 'FastAPI', 'LLaMA LLM', 'Python'],
     },
@@ -40,9 +39,8 @@ export default function Projects() {
       period: 'November 2023 - March 2024',
       description: 'Kubernetes optimization tool that dramatically reduces cold start times using predictive scheduling',
       highlights: [
-        'Optimized Kubernetes and Knative pod startup time by 400%',
-        'Decreased cold start times by 4x using CronJob scheduling and image caching',
-        'Implemented SARIMA forecasting for predictive resource allocation',
+        'Optimized Kubernetes and Knative pod startup time on Google Cloud Platform by 400%',
+        'Decreased cold start times by 4x using CronJob scheduling, image caching, and SARIMA forecasting',
       ],
       tech: ['Kubernetes', 'Knative', 'Google Cloud Platform', 'Python', 'SARIMA'],
     },
